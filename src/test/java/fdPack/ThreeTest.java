@@ -14,6 +14,7 @@ public class ThreeTest extends Base {
 			 driver= intializeDriver();
 			driver.get("https://www.selenium.dev");
 			System.out.println(driver.getTitle());
+			System.out.println("swati updated the code with this statement");
 			driver.close();
 		}
 
